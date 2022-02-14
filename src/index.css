@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(230, 230, 230);
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.StudentPage{
+  display:flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin-left:20vw;
+  margin-top:10vh;
+  width: 60vw;
+  height: 80vh;
+  overflow-y: auto;
+  max-height: 75%;
+  background-color: white;
+
+  border: 1px solid grey;
+  border-radius:5%;
+  box-shadow: 0 30px 40px rgba(0,0,0,.1);
+
+}
+
+/* CLOSED CARD */
+
+
+.StudentPage::-webkit-scrollbar {
+  display: none;
+}
+
+.studentcard{
+  display:flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  width: 60vw;
+  height: 32vh; 
+  margin-top: 1em;
+}
+
+.studentcard .searchform input.submit{
+  color:red;
+}
+
+
+.studentImage{
+  display:flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  width: 15vw;
+  height: 20vh; 
+}
+
+.studentImage img{
+  display:flex;
+  box-sizing: border-box;
+  width: 7.5vw;
+  height: 15vh;
+  border: 1px solid grey;
+  border-radius: 50%;
+}
+
+.studentbio{
+  display:flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 40vw;
+  height: 32vh; 
+  align-items: flex-start;
+
+}
+
+.studentbio h1{
+  font-size: 3em;
+  margin: 0%;
+  color:black;
+  margin-bottom: 1vh;
+}
+
+.studentbio h2 {
+  font-size: 1.5em;
+  font-weight: lighter;
+  color:rgb(29, 29, 29);
+  margin: 0%;
+  margin-left:5%;
+  
+}
+
+.studentbio p {
+  margin:0;
+}
+
+.buttonstudentcard{
+  display:flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  margin-top: 2vh;
+  width: 4vw;
+  height: 7vh;
+}
+
+.buttonstudentcard button{
+  display:flex;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.buttonstudentcard button img{
+  display:flex;
+  width: 2vw;
+  height: 4vh;
+}
+
+/* OPEN CARD */
+
+.studentcardOpen{
+  display:flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  width: 60vw;
+  height: 50vh;
+}
+
+.studentbioOpen{
+  display:flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: flex-start;
+  width: 40vw;
+  height: 60vh;
+
+}
+
+.studentbioOpen h1 {
+  font-size: 3em;
+  margin: 0%;
+  margin-bottom: 1vh;
+}
+
+.studentbioOpen h2 {
+  font-size: 1.5em;
+  font-weight: lighter;
+  color:rgb(32, 32, 32);
+  margin: 0%;
+  margin-left:5%;
+}
+
+.studentbioOpen p {
+  margin-top: 1%;
+}
+
+.grades{
+  display:flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  white-space: pre-wrap;
+  color:rgb(32, 32, 32);
+  font-size: .8em;
+  width: 10vw;
+  margin-left: 1.5vw;
+  
+}
+
+.searchform input {
+  display:flex;
+  height: 5vh;
+  width:58vw;
+  margin-left: 1vw;
+  margin-top: .5vw;
+  font-size: 2em;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background-color: white;
+  border-bottom: 1px solid rgb(206, 206, 206)
+}
+
+.searchform input:focus {
+  outline: none;
+}
+
+.addatag{
+  border-bottom: 1px solid rgb(206, 206, 206);
+  margin-left: 1.5vw;
+}
+
+.addatag input {
+  display:flex;
+  height: 5vh;
+
+  margin-top: .5vw;
+  font-size: 1.4em;
+  font-weight: lighter;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background-color: white;
+
+}
+
+.addatag input:focus {
+  outline: none;
+}
+
+.tags{
+  display: flex;
+  margin-left: 2.5em;
+  margin-top: 1em;
+}
+
+.tag{
+  display: flex;
+  width: 3vw;
+  height: 4vh;
+  font-size: 1.5em;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(231, 231, 231);
+  border: 2px solid  rgb(231, 231, 231);
+  border-radius: 10%;
+  color:black;
+  margin-right: 1em;
+
+}
+
+
+
+
+
+
+
